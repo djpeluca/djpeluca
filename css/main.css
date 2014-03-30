@@ -1,0 +1,97 @@
+body{
+    align-content:center;
+    font-family: 'Press Start 2P', cursive;
+/*    font-family:monospace;*/
+    align-items:center;
+    text-align:center;
+    align-self:center;
+}
+
+#divmenu{
+	height:42px;
+	background-color: white;
+    margin: 0 auto;
+}
+
+ul#menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+ul#menu li{
+    display:inline;
+	cursor: pointer;
+    margin: 0 10px 0 10px;
+	color: #666666;
+    font-family: 'Press Start 2P', cursive;
+/*    font-family: monospace;*/
+    font-size: 15px;
+    font-weight: bolder;
+    list-style: none outside none;
+}
+
+.paragraph {
+    font-family: 'Squada One', cursive;
+    font-size: 21px;
+    margin-bottom: 13px;
+}
+
+.select {
+	background-color: #eeddcc;
+}
+
+.active{
+display: block;
+}
+.none{
+display: none;
+}
+
+.mainimage{
+    background: url(../img/djpeluca2.png) no-repeat -300px 0;
+    width: 299px;
+    height: 465px;
+    align-self:center;
+    margin:0 auto;
+}
+
+.mainimage:hover{
+    background-position: 0 0;
+}
+
+.stuff{
+    float:left;
+    position:absolute;
+}  
+
+/*
+.unit{
+    float:left;
+}
+*/
+
+/*
+.social{
+    width: 100px;
+    float:right;
+}
+*/
+
+
+
+/*RESPONSIVE*/
+
+@media (max-width: 900px) {
+
+ul#menu li{
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+
+ul#menu li{
+    margin: 0 5px 0 5px;
+}
+
+    
+}
