@@ -13,12 +13,13 @@ body{
     margin: 0 auto;
 }
 
+
 ul#menu{
     margin: 0;
     padding: 0;
     text-align: center;
 }
-ul#menu li{
+ul#menu li {
     display:inline;
 	cursor: pointer;
     margin: 0 10px 0 10px;
@@ -83,13 +84,13 @@ display: none;
 
 @media (max-width: 900px) {
 
-ul#menu li{
+ul#menu li, ul#menufilmmaking li{
     font-size: 13px;
 }
 
 @media (max-width: 700px) {
 
-ul#menu li{
+ul#menu li, ul#menufilmmaking li {
     margin: 0 5px 0 5px;
 }
 
