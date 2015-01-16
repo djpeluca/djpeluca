@@ -5,14 +5,14 @@ $(document).ready(function() {
     
     //title and subtitle hover changes
     $('#subtitle').hover(function() { 
-        $('#subtitle').text('Pr0bl3m S0lv3r!');
+        $('#subtitle').text('h4ck TH3 Pl4n3t!');
     },function(){ 
-        $('#subtitle').text('Comunicate & compute');
+        $('#subtitle').text('Communicate & compute');
     });
     $('#title').hover(function() { 
         $('#title').text('Adrian Barrera Servan');
     },function(){ 
-        $('#title').text('DJ Peluca');
+        $('#title').text('DJPELUCA');
     });
     //tipsy tooltip and hover changes
 	
@@ -44,7 +44,7 @@ $(document).ready(function() {
             $('#' +  visible).addClass('none');
             visible = Classes[0];
 			var query = "?tab="+visible;
-			window.history.pushState("object or string", "DJ PELUCA", query);
+			window.history.pushState("object or string", "DJPELUCA", query);
         }
     });
     
@@ -58,7 +58,7 @@ $(document).ready(function() {
             $('#' +  visible).addClass('none');
             visible = Classes[0];
 			var query = "?tab="+visible;
-			window.history.pushState("object or string", "DJ PELUCA", query);
+			window.history.pushState("object or string", "DJPELUCA", query);
         }
     });
     //menu tabs
